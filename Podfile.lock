@@ -14,6 +14,11 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JQFMDB (1.1.6):
+    - FMDB
   - Masonry (1.0.2)
   - MBProgressHUD (1.1.0)
   - ReactiveObjC (2.1.2)
@@ -24,6 +29,7 @@ PODS:
 
 DEPENDENCIES:
   - BlocksKit (~> 2.2.5)
+  - JQFMDB
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.1.0)
   - ReactiveObjC (~> 2.1.2)
@@ -33,6 +39,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BlocksKit
+    - FMDB
+    - JQFMDB
     - Masonry
     - MBProgressHUD
     - ReactiveObjC
@@ -41,12 +49,14 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JQFMDB: 39ab0d6d7c26fd30e51c4dd92edcb27506a34c3a
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 3195fac1ea71c96e339891874d2004a4dd19ee42
+PODFILE CHECKSUM: 52e1e3c4782522752c4ebd7992a74ece561f59cc
 
 COCOAPODS: 1.5.3

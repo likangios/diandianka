@@ -1,0 +1,22 @@
+//
+//  diandianka.pch
+//  diandianka
+//
+//  Created by perfay on 2018/11/28.
+//  Copyright © 2018年 luck. All rights reserved.
+//
+
+#ifndef diandianka_pch
+#define diandianka_pch
+
+#import <SVProgressHUD.h>
+#import <BlocksKit+UIKit.h>
+#import <BlocksKit.h>
+#import <YYKit.h>
+#import <Masonry.h>
+#import <ReactiveObjC.h>
+#import <MBProgressHUD.h>
+#import "PicModel.h"
+#import <JQFMDB.h>
+
+#endif /* diandianka_pch */

@@ -10,5 +10,6 @@ pod 'YYKit', '~> 1.0.9'
 pod 'Masonry', '~> 1.0.2'
 pod 'ReactiveObjC', '~> 2.1.2'
 pod 'MBProgressHUD', '~> 1.1.0'
+pod 'JQFMDB'
 
 end

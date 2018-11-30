@@ -13,6 +13,10 @@
 		79A3DE5F21A2BC9B00707805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A3DE5E21A2BC9B00707805 /* Assets.xcassets */; };
 		79A3DE6221A2BC9B00707805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A3DE6021A2BC9B00707805 /* LaunchScreen.storyboard */; };
 		79A3DE6521A2BC9B00707805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A3DE6421A2BC9B00707805 /* main.m */; };
+		79D3A18921AE40F500D9B100 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3A18821AE40F500D9B100 /* MainPageViewController.m */; };
+		79D3A18C21AE468B00D9B100 /* PicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3A18B21AE468B00D9B100 /* PicViewController.m */; };
+		79D3A19021AE47A900D9B100 /* PicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3A18F21AE47A900D9B100 /* PicModel.m */; };
+		79D3A19321AE6C5300D9B100 /* LUCKDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D3A19121AE6C5300D9B100 /* LUCKDBManager.m */; };
 		920E3DB961DAE75482C67DAA /* libPods-diandianka.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2727536EFEDA65A0E5CDA189 /* libPods-diandianka.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,15 @@
 		79A3DE6121A2BC9B00707805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A3DE6321A2BC9B00707805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A3DE6421A2BC9B00707805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D3A18721AE40F500D9B100 /* MainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		79D3A18821AE40F500D9B100 /* MainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		79D3A18A21AE468B00D9B100 /* PicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicViewController.h; sourceTree = "<group>"; };
+		79D3A18B21AE468B00D9B100 /* PicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicViewController.m; sourceTree = "<group>"; };
+		79D3A18D21AE46E500D9B100 /* diandianka.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diandianka.pch; sourceTree = "<group>"; };
+		79D3A18E21AE47A900D9B100 /* PicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicModel.h; sourceTree = "<group>"; };
+		79D3A18F21AE47A900D9B100 /* PicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicModel.m; sourceTree = "<group>"; };
+		79D3A19121AE6C5300D9B100 /* LUCKDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUCKDBManager.m; sourceTree = "<group>"; };
+		79D3A19221AE6C5300D9B100 /* LUCKDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUCKDBManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +90,15 @@
 				79A3DE5621A2BC9A00707805 /* AppDelegate.m */,
 				79A3DE5821A2BC9A00707805 /* ViewController.h */,
 				79A3DE5921A2BC9A00707805 /* ViewController.m */,
+				79D3A18E21AE47A900D9B100 /* PicModel.h */,
+				79D3A18F21AE47A900D9B100 /* PicModel.m */,
+				79D3A19221AE6C5300D9B100 /* LUCKDBManager.h */,
+				79D3A19121AE6C5300D9B100 /* LUCKDBManager.m */,
+				79D3A18721AE40F500D9B100 /* MainPageViewController.h */,
+				79D3A18821AE40F500D9B100 /* MainPageViewController.m */,
+				79D3A18A21AE468B00D9B100 /* PicViewController.h */,
+				79D3A18B21AE468B00D9B100 /* PicViewController.m */,
+				79D3A18D21AE46E500D9B100 /* diandianka.pch */,
 				79A3DE5B21A2BC9A00707805 /* Main.storyboard */,
 				79A3DE5E21A2BC9B00707805 /* Assets.xcassets */,
 				79A3DE6021A2BC9B00707805 /* LaunchScreen.storyboard */,
@@ -206,8 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D3A18C21AE468B00D9B100 /* PicViewController.m in Sources */,
+				79D3A19321AE6C5300D9B100 /* LUCKDBManager.m in Sources */,
+				79D3A18921AE40F500D9B100 /* MainPageViewController.m in Sources */,
 				79A3DE5A21A2BC9A00707805 /* ViewController.m in Sources */,
 				79A3DE6521A2BC9B00707805 /* main.m in Sources */,
+				79D3A19021AE47A900D9B100 /* PicModel.m in Sources */,
 				79A3DE5721A2BC9A00707805 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM6C5S4FLT;
+				GCC_PREFIX_HEADER = diandianka/diandianka.pch;
 				INFOPLIST_FILE = diandianka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM6C5S4FLT;
+				GCC_PREFIX_HEADER = diandianka/diandianka.pch;
 				INFOPLIST_FILE = diandianka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
